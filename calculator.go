@@ -1,5 +1,10 @@
 package instoworks_go_demo_dependency
 
+import (
+	"fmt"
+)
+
 func Add(a, b int) int {
-  return a + b
+	fmt.Printf("calling add [a=%d, b=%d]", a, b)
+	return a + b
 }
