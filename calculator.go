@@ -5,6 +5,6 @@ import (
 )
 
 func Add(a, b int) int {
-	fmt.Printf("calling calc.add [a=%d, b=%d]", a, b)
+	fmt.Printf("calling add [a=%d, b=%d]", a, b)
 	return a + b
 }
